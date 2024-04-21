@@ -12,10 +12,10 @@ const Footer = () => {
                     >
                         Designed & developed by -
                     </p>
-                    <NavLink className="text-decoration-none" to="">
+                    <NavLink className="text-decoration-none" to="/team">
                         <p className="mb-0 text-light">
                             {" "}
-                            <u> Web Team</u>{" "}
+                            <u> Team</u>{" "}
                         </p>
                     </NavLink>
                 </div>

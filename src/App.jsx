@@ -19,7 +19,7 @@ import {useAuthContext} from "./hooks/useAuthContext"
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import Ranking from "./pages/Ranking.jsx";
-
+import OurTeam from "./pages/OurTeam.jsx";
 /**
  * This is the main layout component where all the pages and navbar, sidebar are rendered
  */
@@ -118,6 +118,7 @@ function App() {
                             <Route exact path="/rules" element={<Rules />} />
                             <Route exact path="/ranking" element={<Ranking />} />
                             <Route exact path="/ipo" element={<Ipos />} />
+                            <Route exact path="/team" element={<OurTeam />} />
                         </Routes>
                     </div>
 
